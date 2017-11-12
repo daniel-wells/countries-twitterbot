@@ -44,6 +44,9 @@ results = requests.get(url, params={'query': query, 'format': 'json'}).json()
 
 print("{} {}".format(len(results["results"]["bindings"]), "records"))
 
+# sort countries by wikidata ID - makes diffs easier
+results["results"]["bindings"].sort(key=lambda k: k['country']['value'])
+
 # Save Data to json
 with open('data.json', 'w') as outfile:
     json.dump(results, outfile, indent=4, ensure_ascii=False, sort_keys=True)
