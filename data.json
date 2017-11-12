@@ -82,7 +82,7 @@
                 },
                 "countryLabel": {
                     "type": "literal",
-                    "value": "Gambia",
+                    "value": "The Gambia",
                     "xml:lang": "en"
                 },
                 "emoji": {
@@ -1022,7 +1022,7 @@
                 },
                 "countryLabel": {
                     "type": "literal",
-                    "value": "Sao Tomé and Príncipe",
+                    "value": "São Tomé and Príncipe",
                     "xml:lang": "en"
                 },
                 "emoji": {
@@ -1652,12 +1652,12 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2015-01-01T00:00:00Z"
+                    "value": "2017-07-01T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "1376049000"
+                    "value": "1409517397"
                 }
             },
             {
@@ -1751,7 +1751,7 @@
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "146519759"
+                    "value": "146804372"
                 }
             },
             {
@@ -2033,7 +2033,7 @@
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "1313271"
+                    "value": "1315635"
                 }
             },
             {
@@ -2451,7 +2451,7 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2013-01-01T00:00:00Z"
+                    "value": "2016-12-31T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -2780,7 +2780,7 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2013-01-01T00:00:00Z"
+                    "value": "2016-01-01T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -3250,12 +3250,12 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2013-01-01T00:00:00Z"
+                    "value": "2016-01-01T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "331900"
+                    "value": "366954"
                 }
             },
             {
@@ -3673,12 +3673,12 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2013-01-01T00:00:00Z"
+                    "value": "2016-01-01T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "9893899"
+                    "value": "9817958"
                 }
             },
             {
@@ -3720,7 +3720,7 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2015-01-01T00:00:00Z"
+                    "value": "2017-01-01T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -4049,7 +4049,7 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2017-01-20T00:00:00Z"
+                    "value": "2017-06-30T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -5219,12 +5219,12 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2017-01-01T00:00:00Z"
+                    "value": "2017-07-01T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "1263200000"
+                    "value": "1339180127"
                 }
             },
             {
@@ -6812,12 +6812,12 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2017-01-01T00:00:00Z"
+                    "value": "2017-03-28T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "82056378"
+                    "value": "94798827"
                 }
             },
             {
@@ -7752,7 +7752,7 @@
                 "popDate": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
                     "type": "literal",
-                    "value": "2013-01-01T00:00:00Z"
+                    "value": "2016-01-01T00:00:00Z"
                 },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
@@ -8778,10 +8778,15 @@
                     "type": "uri",
                     "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Location%20Tunisia%20AU%20Africa.svg"
                 },
+                "popDate": {
+                    "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "type": "literal",
+                    "value": "2016-01-01T00:00:00Z"
+                },
                 "population": {
                     "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
                     "type": "literal",
-                    "value": "10835873"
+                    "value": "11304500"
                 }
             },
             {
