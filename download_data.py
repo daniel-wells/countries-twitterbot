@@ -4,39 +4,9 @@ from urllib.parse import unquote
 
 # Search wikidata for data on countries
 
-query = """
-SELECT
-?emoji
-(SAMPLE(?country) AS ?country)
-(SAMPLE(?countryLabel) AS ?countryLabel)
-(SAMPLE(?map) AS ?map)
-(SAMPLE(?coordinate) AS ?coordinate)
-(SAMPLE(?population) AS ?population)
-(MAX(?popDate) AS ?popDate)
-(GROUP_CONCAT(DISTINCT ?capital; SEPARATOR=", ") AS ?capital)
-(SAMPLE(?flag) AS ?flag)
-(GROUP_CONCAT(DISTINCT ?capitalLabel; SEPARATOR=", ") AS ?capitalLabels)
-
-WHERE {
-    ?country wdt:P31 wd:Q6256.
-    ?country wdt:P1813 ?emoji.
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
-        ?country rdfs:label ?countryLabel.
-        ?capital rdfs:label ?capitalLabel.}
-    OPTIONAL { ?country wdt:P242 ?map. }
-    OPTIONAL { ?country wdt:P625 ?coordinate. }
-    OPTIONAL { ?country wdt:P36 ?capital. }
-    OPTIONAL { ?country wdt:P41 ?flag. }
-    OPTIONAL { ?country wdt:P1082 ?population. }
-    OPTIONAL {
-      ?country p:P1082 ?statement.
-      ?statement pq:P585 ?popDate.
-    }
-    FILTER(LANGMATCHES(LANG(?emoji), "zxx"))
-}
-
-GROUPBY ?emoji
-"""
+# Load SPARQL query
+with open('query.sparql', 'r') as queryfile:
+    query = queryfile.read()
 
 # practice /test at https://query.wikidata.org
 url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
